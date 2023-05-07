@@ -1,6 +1,12 @@
-![https://github-readme-stats.vercel.app/api?username=kephale](https://github-readme-stats.vercel.app/api?username=kephale)
+![Metrics](/github-metrics.svg)
+
 
 <!--
+
+Old one
+![https://github-readme-stats.vercel.app/api?username=kephale](https://github-readme-stats.vercel.app/api?username=kephale)
+
+
 **kephale/kephale** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
