@@ -18,6 +18,7 @@ jobs:
           filename: metrics_achievements.svg
           base: ""
           plugin_achievements: yes
+          plugin_achievements_limit: 6
           plugin_achievements_only: >-
             polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
             scripter, packager, explorer, infographile, manager
