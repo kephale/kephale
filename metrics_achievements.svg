@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="60" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="123" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}.achievement{display:flex;margin:4px 0}.achievement .icon{margin:0 4px;width:44px;height:44px}.achievement .text{font-size:12px;color:#666}.achievement .title{font-size:14px;color:#58a6ff}.achievement .gauge-base,.achievement .gauge-arc{stroke-width:6}.achievement .gauge-base{stroke:#eee}.achievement .gauge-arc{fill:none;stroke-linecap:round;transform-origin:center;transform:rotate(-90deg);stroke-dasharray:329 329}.achievement.x .gauge-arc{stroke:#58a6ff}.achievement.x .gauge .gauge-point{fill:#58a6ff}.achievement.b .gauge-arc{stroke:#9be9a8}.achievement.b .gauge .gauge-point{fill:#9be9a8}.achievement.a .gauge-arc{stroke:#f0cb69}.achievement.a .gauge .gauge-point{fill:#f0cb69}.achievement.s .gauge-arc{stroke:#ff666a}.achievement.s .gauge .gauge-point{fill:#ff666a}.achievement .gauge{opacity:.8}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -14,12 +14,98 @@
                     Achievements
                 </h2>
                 <div class="row">
-                    <section class="achievements  largeable-flex-wrap">
-                        <div class="field error">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M2.343 13.657A8 8 0 1113.657 2.343 8 8 0 012.343 13.657zM6.03 4.97a.75.75 0 00-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 101.06 1.06L8 9.06l1.97 1.97a.75.75 0 101.06-1.06L9.06 8l1.97-1.97a.75.75 0 10-1.06-1.06L8 6.94 6.03 4.97z"/>
-                            </svg>
-                            Unexpected error
+                    <section class="achievements largeable-flex-wrap">
+                        <div class="achievement b">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" stroke-width="12" stroke-dasharray="155 155" fill="white" stroke="white" transform="rotate(-90 28 28)"/>
+                                            <circle class="gauge-arc" r="25" cx="28" cy="28" stroke-width="12" fill="white" stroke="white" transform="rotate(-90 28 28)" stroke-dasharray="155 155" stroke-dashoffset="155"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path fill="#9be9a8" d="M20.78 9.375H39.22a.78.78 0 01.78.78V24.219a.78.78 0 01-.78.781H20.78a.78.78 0 01-.78-.781V10.155a.78.78 0 01.78-.78z"/>
+                                            <path fill="#9be9a8" d="M38.674 18.75v15.468a.967.967 0 01-.967.968h-14.95a.967.967 0 01-.966-.968V18.75h16.883z"/>
+                                            <path stroke="#40c463" d="M30 7.344v39.374"/>
+                                            <path stroke="#40c463" d="M14.062 34.688c0 8.799 7.139 15.937 15.938 15.937s15.938-7.138 15.938-15.937c0-3.597-1.649-7.079-3.328-9.844"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">Galaxy brain</div>
+                                <div class="text">Answered in discussions</div>
+                            </div>
+                        </div>
+                        <div class="achievement x">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" stroke-width="12" stroke-dasharray="155 155" fill="white" stroke="white" transform="rotate(-90 28 28)"/>
+                                            <circle class="gauge-arc" r="25" cx="28" cy="28" stroke-width="12" fill="white" stroke="white" transform="rotate(-90 28 28)" stroke-dasharray="60 155" stroke-dashoffset="155"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M17.5 28.75a11.25 11.25 0 1122.5 0 11.25 11.25 0 01-22.5 0z" stroke="#58a6ff" stroke-width="1.5" fill="none"/>
+                                            <path d="M17.5 28.75l11.25-11.25m-11.25 11l11.25 11.5m0-22.5l11.25 11.25m-11.25 11.25l11.25-11.25" stroke="#58a6ff" stroke-width="1.5"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">Pull shark</div>
+                                <div class="text">Opened 225 pull requests</div>
+                            </div>
+                        </div>
+                        <div class="achievement a">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" stroke-width="12" stroke-dasharray="155 155" fill="white" stroke="white" transform="rotate(-90 28 28)"/>
+                                            <circle class="gauge-arc" r="25" cx="28" cy="28" stroke-width="12" fill="white" stroke="white" transform="rotate(-90 28 28)" stroke-dasharray="115 155" stroke-dashoffset="155"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g stroke-linecap="round" stroke-width="2" stroke="#f0cb69">
+                                            <path fill="#f0cb69" d="M20.75 37c-.69 0-1.25.56-1.25 1.25v7c0 .69.56 1.25 1.25 1.25h18.5c.69 0 1.25-.56 1.25-1.25v-7c0-.69-.56-1.25-1.25-1.25h-18.5z"/>
+                                            <path d="M25.75 34.25v-7.5h7.5v7.5m-15 0h22.5m-11.25-7.5v-15M17 17h25.5"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">YOLO</div>
+                                <div class="text">Merged 43 pull requests without review</div>
+                            </div>
+                        </div>
+                        <div class="achievement s">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" height="44" width="44">
+                                    <defs>
+                                        <mask id="mask">
+                                            <circle class="gauge-base" r="25" cx="28" cy="28" stroke-width="12" stroke-dasharray="155 155" fill="white" stroke="white" transform="rotate(-90 28 28)"/>
+                                            <circle class="gauge-arc" r="25" cx="28" cy="28" stroke-width="12" fill="white" stroke="white" transform="rotate(-90 28 28)" stroke-dasharray="140 155" stroke-dashoffset="155"/>
+                                        </mask>
+                                    </defs>
+                                    <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
+                                        <g fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <circle stroke="#ff666a" r="4" cy="16.5" cx="28"/>
+                                            <path stroke="#ff666a" d="M28 49.5c-15 0-16-17-16-17 9 .5 13.5-7.5 13.5-7.5m5 7.5s4.5 8 13.5 7.5c0 0-1 17-16 17z"/>
+                                            <path stroke="#ff666a" d="M29 32.5s3 4.5 3 8.5c0 0-1.5 1-4 1-2.5 0-4-1-4-1 0-4 3-8.5 3-8.5"/>
+                                            <path stroke="#ff666a" d="M25 29.75S24.75 28 21 28c-4.5 0-5.5 3.25-5.5 3.25m17.5-3.25S34.25 28 38 28c4.5 0 5.5 3.25 5.5 3.25"/>
+                                        </g>
+                                    </svg>
+                                </svg>
+                            </div>
+                            <div class="info">
+                                <div class="title">Starstruck</div>
+                                <div class="text">Created repositories with 125 stars</div>
+                            </div>
                         </div>
                     </section>
                 </div>
