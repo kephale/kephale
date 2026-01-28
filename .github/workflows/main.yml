@@ -37,8 +37,8 @@ jobs:
           plugin_followup: yes
 
           # 📦 Highlight serious repos (edit these!)
-          plugin_repositories: yes
-          plugin_repositories_featured: czi-ai/cryolens, scenerygraphics/sciview, cellcanvas/cellcanvas, copick/copick
+#          plugin_repositories: yes
+#          plugin_repositories_featured: czi-ai/cryolens, scenerygraphics/sciview, cellcanvas/cellcanvas, copick/copick
 
           # 👥 Collaboration signal
           plugin_people: yes
