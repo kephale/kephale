@@ -1,11 +1,10 @@
 name: Metrics
+
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  schedule: [{ cron: "0 0 * * *" }]
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+  push: { branches: ["master", "main"] }
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -15,5 +14,35 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
 
-          
+          # Core data needed for most plugins
+          base: activity, community, repositories, metadata
+
+          config_timezone: America/Los_Angeles
+
+          # 🔥 Shows you're actively coding
+          plugin_lines: yes
+
+          # 🔬 Research/engineering credibility
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          plugin_languages_ignored: html, css
+
+          # 🚦 Shows people actually use your work
+          plugin_traffic: yes
+
+          # 📈 Contribution + issue/PR involvement
+          plugin_followup: yes
+
+          # 📦 Highlight serious repos (edit these!)
+          plugin_repositories: yes
+          plugin_repositories_featured: cryolens, sciview, cellcanvas, copick
+
+          # 👥 Collaboration signal
+          plugin_people: yes
+          plugin_people_types: followers, following
+
+          # 📅 Shows sustained contribution
+          plugin_calendar: yes
