@@ -22,6 +22,6 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_limit: 6
           plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
+            polyglot, stargazer, sponsor, deployer, member, maintainer,
+            explorer, infographile
           plugin_achievements_threshold: 1
