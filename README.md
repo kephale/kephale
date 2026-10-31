@@ -2,6 +2,8 @@
 
 I'm a machine learning and computer scientist working on biological image analysis, interactive visualization, and scientific software. I build open-source tools for exploring large datasets and turning computational methods into useful research workflows.
 
+![GitHub metrics](metrics.svg)
+
 [Website](https://kyleharrington.com) · [Repositories](https://github.com/kephale?tab=repositories)
 
 ## Selected projects
@@ -21,10 +23,3 @@ I also contribute to [napari](https://github.com/napari/napari), [VisPy](https:/
 Interested in contributing to [CellCanvas](https://github.com/cellcanvas/cellcanvas/issues)? Tell us about the scientific workflow you want to improve so we can identify a useful starting point together.
 
 For other projects, the linked repositories are the best place for questions, reproducible bug reports, examples, and contribution proposals.
-
-<details>
-<summary>GitHub activity</summary>
-
-![GitHub metrics](metrics.svg)
-
-</details>
